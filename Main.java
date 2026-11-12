@@ -3,10 +3,12 @@ public class Main {
         Dog doggy = new Dog();
         Cat kidde = new Cat();
         Bird fur = new Bird();
+        Lion li = new Lion();
 
         doggy.greet();
         kidde.greet();
         fur.greet();
+        li.greet();
     }
 }
 
@@ -29,5 +31,11 @@ class Cat implements Animal {
 class Bird implements Animal {
     public void greet() {
         System.out.println("Tweet!");
+    }
+}
+
+class Lison implements Animal {
+    public void greet() {
+        System.out.println("Rowww!");
     }
 }
